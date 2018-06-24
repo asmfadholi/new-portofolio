@@ -1,0 +1,42 @@
+.section--burger{
+  position: fixed;
+  background: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  z-index: 6;
+  width:100%;
+  height:100%;
+}
+.section--burger .container {
+  position: relative;
+  padding:10px;
+}
+.section--burger .icon-close {
+  position: absolute;
+  top: 0;
+  right:0;
+  padding: 10px;
+  cursor: pointer;
+}
+.section--burger ul {
+  padding-top: 32px;
+  padding-left: 0;
+}
+.section--burger li {
+  width: 100%;
+  list-style: none;
+  border-bottom: 1px solid grey;
+  cursor: pointer;
+  padding:25px;
+  background: #fbfbfb;
+  transition: background 0.8s;
+}
+.section--burger li:hover {
+  background: #938f8f;
+  transition: background 0.8s;
+}
+.section--burger li a {
+  text-decoration: none;
+  color: #4c4c4c;
+  width:100%;
+}

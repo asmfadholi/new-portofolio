@@ -1,0 +1,17 @@
+.section--contact{
+  background: #938f8f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kontak {
+  text-align: center;
+}
+.kontak i{
+  color: #fbfbfb;
+  transition: color .9s;
+}
+.kontak i:hover {
+  transition: color .9s;
+  color: #2f2f2f;
+}

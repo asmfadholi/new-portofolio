@@ -1,0 +1,91 @@
+.section--portofolio{
+  background: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center{
+  height: 250px;
+  width:90%;
+}
+.macem{
+  width:300px;
+  _border: 2px solid red;
+  padding:5px;
+  position: relative;
+}
+.macem img {
+  width: 100%;
+}
+.macem a {
+  text-decoration: none;
+}
+.macem a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.macem a:hover:before{
+  opacity: 0.8;
+  transition: opacity 1s;
+}
+
+.portofolio1:hover:after {
+  content: 'Wikipedia Search';
+  position: relative;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.portofolio2:hover:after {
+  content: 'Random Quotes';
+  position: relative;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.portofolio3:hover:after {
+  content: 'Local Weather';
+  position: relative;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.portofolio4:hover:after {
+  content: 'Twitch TV';
+  position: relative;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.portofolio5:hover:after {
+  content: 'Todo List';
+  position: relative;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.slick-prev:before, .slick-next:before{
+  color: #2f2f2f !important;
+}
+
+.section--portofolio .next-icon{
+  width:100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 2vh;
+}

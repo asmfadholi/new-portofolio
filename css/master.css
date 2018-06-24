@@ -1,0 +1,27 @@
+@import "style/section-home.css";
+@import "style/section-about.css";
+@import "style/section-header.css";
+@import "style/section-portofolio.css";
+@import "style/section-contact.css";
+@import "style/section-burger.css";
+@font-face {
+  font-family: 'DejaVuSans';
+  src: url('../fonts/dejavusans.ttf') format('truetype');
+}
+
+body{
+  font-family: 'DejaVuSans';
+  margin: 0;
+  overflow: hidden;
+}
+.section--home, .section--about, .section--portofolio, .section--contact {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* display dissapear */
+.invisible{
+  display: none;
+}

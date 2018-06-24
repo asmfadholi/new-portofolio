@@ -1,0 +1,130 @@
+/* section--about */
+.section--about{  
+  background: #938f8f;
+}
+/* decoration */
+.section--about .decoration {
+  width: 65%;
+  height: 65vh;
+  _border: 1px solid green;
+  position: absolute;
+  bottom: 0px;
+}
+.decoration .mountain{
+  position: absolute;
+  width: 100%;
+  _border: 1px solid black;
+  bottom: 0px;
+}
+.decoration .mountain img {
+  width: 100%;
+}
+.mountain .cloud-one{
+  position: absolute;
+  width:15%;
+  left: -5%;
+  top: -10vh;
+}
+.mountain .cloud-two{
+  position: absolute;
+  width:15%;
+  right: 27%;
+  top: 7vh;
+}
+@media screen and (max-width: 768px) {
+  .section--about .decoration {
+    width:100%;
+    bottom: -10vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  .section--about .decoration {
+    width:100%;
+    bottom: 5vh;
+  }
+}
+/* content-about */
+.section--about .content{
+  position: absolute;
+  _border: 1px solid yellow;
+  width: 70%;
+  right: 0;
+  color: #fbfbfb;
+}
+.content .text-about{
+  position: absolute;
+  width: 65%;
+  _border: 1px solid pink;
+  left: 30%;
+  top: 18vh;
+  z-index: 2;
+}
+.content .text-about h4{
+  text-shadow: 1px 2px 4px rgba(0,0,0,.2);
+}
+.content .foto {
+  position: absolute;
+  top: 60vh;
+  right:5%;
+  _border: 1px solid yellow;
+}
+.foto img {
+  width: 150px;
+  box-shadow: 1px 2px 4px rgba(0,0,0,.2);
+  border-radius: 100%;
+}
+@media screen and (max-width: 768px) {
+  .section--about .content {
+    width:100%;
+  }
+  .content .text-about{
+    left: 5%;
+    top: 13vh;
+  }
+  .content .foto {
+    top: 18vh;
+  }
+}
+@media screen and (max-width: 620px) {
+  .section--about .content, .section--about .decoration  {
+    position: relative;
+  }
+  .content .text-about, .content .foto{
+    position: relative;
+    right:0;
+  }
+  .section--about .content .text-about{
+    left: 0;
+    top: 13vh;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  .section--about .content .foto{
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+  }
+}
+/* icon-next */
+.section--about .next-icon{
+  width:100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 2vh;
+}
+.next-icon .wrap-icon{
+  _box-shadow: 2px 2px 5px #2f2f2f;
+  border-radius: 100%;
+  cursor: pointer;
+  position: relative;
+  z-index: 5;
+}
+.next-icon .wrap-icon i:before {
+  box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+  border-radius: 100%;
+  background: #fbfbfb;
+  color: #2f2f2f;
+}
