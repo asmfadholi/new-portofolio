@@ -82,14 +82,14 @@
   margin-top: 0;
 }
 .arrow-img .img-wrap{
-  transition: transform 1.2s;
+  transition: transform 1.2s ease;
 }
 .arrow-img .img-wrap i{
   color: #938f8f;
 }
 .arrow-img .img-wrap:hover {
   transform: rotate(180deg);
-  transition: transform 1.2s;
+  transition: transform 1.2s ease;
 }
 .arrow-img .img-wrap i:before{
   border-radius: 100%;
