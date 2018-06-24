@@ -30,11 +30,11 @@
   width: 100%;
   background: black;
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 1s ease;
 }
 .macem a:hover:before{
   opacity: 0.8;
-  transition: opacity 1s;
+  transition: opacity 1s ease;
 }
 
 .portofolio1:hover:after {
