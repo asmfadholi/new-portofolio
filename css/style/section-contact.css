@@ -9,9 +9,9 @@
 }
 .kontak i{
   color: #fbfbfb;
-  transition: color .9s;
+  transition: color .9s ease;
 }
 .kontak i:hover {
-  transition: color .9s;
+  transition: color .9s ease;
   color: #2f2f2f;
 }
