@@ -29,11 +29,11 @@
   cursor: pointer;
   padding:25px;
   background: #fbfbfb;
-  transition: background 0.8s;
+  transition: background 0.8s ease;
 }
 .section--burger li:hover {
   background: #938f8f;
-  transition: background 0.8s;
+  transition: background 0.8s ease;
 }
 .section--burger li a {
   text-decoration: none;
