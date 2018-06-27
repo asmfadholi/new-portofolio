@@ -31,7 +31,7 @@ $(document).ready(function(){
 
   //dapetin scrolltop section dan animasi ke arah section tsb
   $('.navigasi, .nextin').click(function(event){
-    event.preventDefault();    
+    event.preventDefault();
     $('body,html').animate({
       scrollTop: $(this.hash).offset().top
     }, 1000)
@@ -54,7 +54,12 @@ $(document).ready(function(){
     } else {
       $('.section--header').addClass('invisible');
     }
-
-
   })
+
+  //enter efek next slide
+  $("body,html").keypress(function(enter){
+    if(enter.which == 13){
+      $(".navigasi.back-home").click();
+    };
+  });
 });
