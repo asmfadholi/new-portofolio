@@ -8,6 +8,10 @@
   font-family: 'DejaVuSans';
   src: url('../fonts/dejavusans.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('../fonts/Gotham-Book.ttf') format('truetype');
+}
 
 body{
   font-family: 'DejaVuSans';
